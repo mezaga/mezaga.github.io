@@ -73,15 +73,15 @@ section h1{
 .contenedor {
     text-align: justify;
     padding: 22px;
+    color: #fff;
 }
 
 .contenedor h2{
-    color: #fff;
+
 }
 
 .contenedor .sub {
   font-style: italic;
-  color: #fff;
   font-size: 0.9 rem;
 }
 
