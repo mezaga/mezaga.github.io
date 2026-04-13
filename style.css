@@ -6,7 +6,7 @@
 body {
   font: Arial;
   line-height: 1.6;
-  background-color: #56311d;
+  background-color: #0d0302;
   color: #333;
 }
 
@@ -93,6 +93,10 @@ main {
   color: #007bff;
   text-decoration: none;
   font-weight: bold;
+}
+
+.entrada p{
+    color: #fff;
 }
 
 .entrada a:hover {
