@@ -32,7 +32,6 @@ header nav .logo{
     position: relative;
     font-weight: bold;
     font-zise: 4.0 rem;
-    float: right;
 }
 header nav {
     background-color: #8f7150;
@@ -44,7 +43,7 @@ header nav ul {
 }
 
 header nav ul li {
-    justify-content: left;
+    float: left;
 }
 
 header nav ul li a {
