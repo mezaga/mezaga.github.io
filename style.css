@@ -89,6 +89,11 @@ section h1{
     font-size: 16px;
 }
 
+.contenedor a{
+    font-zise: 16px;
+    text-decoration: none;
+}
+
 .entrada {
   padding: 1.5 rem;
   margin-bottom: 2 rem;
