@@ -57,7 +57,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    background: #77C1E4;
+    background: #9F8569;
 }
 
 .menu-fixed{
@@ -74,7 +74,6 @@ main {
 }
 
 .entrada {
-  background: #fff;
   padding: 1.5 rem;
   margin-bottom: 2 rem;
   border-radius: 8 px;
