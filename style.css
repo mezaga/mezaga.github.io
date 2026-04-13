@@ -36,8 +36,6 @@ header nav .logo{
 header nav {
     position: fixed;
     background-color: #2382AF;
-    justify-content: center;
-    align-items: center;
     overflow: hidden;
     z-index:10;
 }
@@ -47,7 +45,7 @@ header nav ul {
 }
 
 header nav ul li {
-    float: right;
+    float: left;
 }
 
 header nav ul li a {
