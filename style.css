@@ -68,7 +68,7 @@ section {
 section h1{
     color: #fff;
     text-align: center;
-    font-zise: 32px;
+    font-zise: 52px;
 }
 
 .contenedor {
@@ -78,14 +78,17 @@ section h1{
 }
 
 .contenedor h2{
-
+    font-zise: 48px;
 }
 
 .contenedor .sub {
-  font-style: italic;
-  font-size: 0.9 rem;
+    font-style: italic;
+    font-size: 24px;
 }
 
+.contenedor p{
+    font-size: 16px;
+}
 
 .entrada {
   padding: 1.5 rem;
