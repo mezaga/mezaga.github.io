@@ -90,7 +90,9 @@ section h1{
 }
 
 .contenedor a{
+    color: #fff;
     font-zise: 16px;
+    margin-botom: 20px;
     text-decoration: none;
 }
 
