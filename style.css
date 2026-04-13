@@ -31,7 +31,7 @@ header h3 {
 header nav .logo{
     position: relative;
     font-weight: bold;
-    font-zise: 3.0 rem;
+    font-zise: 4.0 rem;
 }
 header nav {
     position: fixed;
@@ -47,7 +47,7 @@ header nav ul {
 }
 
 header nav ul li {
-    float: left;
+    float: right;
 }
 
 header nav ul li a {
@@ -56,6 +56,7 @@ header nav ul li a {
     color: #fff;
     text-decoration: none;
     font-family: Arial;
+    font-zise: 2.5 rem;
 }
 
 header nav ul li a:hover {
