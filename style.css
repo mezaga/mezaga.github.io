@@ -6,7 +6,7 @@
 body {
   font: Arial;
   line-height: 1.6;
-  background-color: #5D473A;
+  background-color: #56311d;
   color: #333;
 }
 
@@ -44,7 +44,7 @@ header nav ul {
 }
 
 header nav ul li {
-    float: left;
+    justify-content: left;
 }
 
 header nav ul li a {
