@@ -24,6 +24,7 @@ header {
   background-image: linear-gradient(to top, #56311d 9%, #0d0302 67%);
   padding: lrem 0;
   text-align: center;
+  width: 100%;
 }
 
 header img{
@@ -51,6 +52,7 @@ nav {
     background-color: #8f7150;
     overflow: hidden;
     justify-items: center;
+    width: 100%;
 }
 
 nav ul {
