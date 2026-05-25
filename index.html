@@ -2,61 +2,74 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name= "viewport" content="widht=device-width, initial-scale=1.0">
-  <title>Gerardo M. Gomez Profile</title>
+  <!-- FIX: "widht" → "width" -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- FIX: title corrected from "Gomez" to "Meza" -->
+  <title>Gerardo Meza — Compositor y Artista Sonoro</title>
   <link rel="stylesheet" href="style.css">
-  <script src="java.js"></script>
-  <script src="http://code.jquery.com/jquery-lastest.js"></script>
+  <!-- FIX: script moved here with defer so it doesn't block rendering -->
+  <script src="java.js" defer></script>
+  <!-- FIX: removed broken/insecure jQuery CDN (not used in the project) -->
 </head>
 <body>
+
   <header id="Home">
-    <br>
-    <img src="Gerardo.png" title="Composer and Sound Artist" width="200" />
-    <h1>Gerardo M. Gomez</h1>
-    <h3>Composer and Sound Artist</h3>
-    <br>
+    <img src="Gerardo.png" title="Compositor y Artista Sonoro" alt="Gerardo Meza" />
+    <!-- FIX: h1/h3 corrected from "Gomez" to "Meza" -->
+    <h1>Gerardo Meza</h1>
+    <h3>Composer &amp; Sound Artist</h3>
   </header>
-    <nav class="menu">
-    <!--Menu-->
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="obras.html">Obras</a></li>
-        <li><a href="conciertos.html">Conciertos</a></li>
-        <li><a href="galeria.html">Galería</a></li>
-        <li><a href="CV.pdf">CV</a></li>
-        <li><a href="proyectos.html">Proyectos</a></li>
-        <li><a href="publicaciones.html">Publicaciones</a></li>
-      </ul> 
-    </nav>
-<main>
-  <!--Seccion de About-->
-  <section id="About">
+
+  <nav class="menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="obras.html">Obras</a></li>
+      <li><a href="conciertos.html">Conciertos</a></li>
+      <li><a href="galeria.html">Galería</a></li>
+      <li><a href="CV.pdf">CV</a></li>
+      <li><a href="proyectos.html">Proyectos</a></li>
+      <li><a href="publicaciones.html">Publicaciones</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="About">
       <h1>About</h1>
+
       <div class="contenedorp">
         <div class="perfil">
-          <img src="Perfil.jpeg" title="Composer and Sound Artist" alt="">
+          <img src="Perfil.jpeg" title="Gerardo Meza" alt="Gerardo Meza" />
         </div>
-            <div class="texto"> 
-              <h2>Gerardo Meza (México, 1993)</h2>
-              <p class="sub">Compositor de música de cámara y electrónica.</p>
-              <p>Originario de Tampico, Tamaulipas. Estudió la licenciatura en composición en el Conservatorio de las Rosas y la licenciatura en Música y Tecnología Artística en la Escuela Nacional de Estudios Superiores campus Morelia de la Universidad Nacional Autónoma de México (UNAM), dónde se tituló con honores y obtuvo la medalla Gabino Barreda. Además, cuenta con una maestría en Música en el área de Tecnología Musical otorgada por la UNAM.</p>
-              <p>Su música combina notación mixta, síntesis, procesos interactivos, algorítmicos y de inteligencia artificial con la exploración instrumental en formatos de cámara. Ha sido beneficiario del PECDA y en el 2017 resultó ganador del Primer “Concurso Nacional de Composición para Cuarteto de Percusiones” con su obra “Aleación”. Su producción musical cuenta con más de 30 obras y ha sido interpretada en espacios nacionales e internacionales, como el Foro de Música Nueva Manuel Enríquez (México), el Centro Mexicano para la Música y Artes Sonoras (México), el Festival de Música Contemporánea, la Western Michigan University (Estados Unidos) y el Festival Internacional Vila de Canals (España).</p>
-              <p>Actualmente, es beneficiario del programa jóvenes creadores del SACPC y se desempeña como profesor de asignatura en la Universidad Autónoma de Tamaulipas, colaborando con músicos e investigadores de la Universidad de Nueva York y la UNAM en proyectos relacionados con bases de datos musicales y modelos generativos de aprendizaje automático.</p>
-              <br>
-              <h2>Gerardo Meza (Mexico, 1993)</h2>
-              <p class="sub">Is a composer of chamber and electronic music.</p>
-              <p>He began his musical studies at the Universidad Autónoma de Tamaulipas and holds a Bachelor’s degree in composition from the Conservatorio de las Rosas, where he studied with Ignacio Martínez Madrigal.</p>
-              <p>He is also a Bachelor of Music and Artistic Technology from ENES, UNAM, where he studied under the guidance of Rodrigo Sigal and Juan Sebastián Lach. He is currently a graduate of the Master’s program in Musical Technology at UNAM.</p>
-              <p>As a composer, in 2017 he won the «1st National Composition Competition for Percussion Quartet» with his piece «Aleación» and has been a beneficiary of the Stimulus Program for Artistic Creation and Development in 2014 and 2019 with the projects «Sonidos de un entorno Tamaulipeco» and «Topografías Sónicas». His music has been performed in Mexico, the United States, and Spain.</p>
-            </div>
+
+        <div class="texto">
+          <h2>Gerardo Meza (México, 1993)</h2>
+          <p class="sub">Compositor de música de cámara y electrónica.</p>
+
+          <p>Originario de Tampico, Tamaulipas. Estudió la licenciatura en composición en el Conservatorio de las Rosas y la licenciatura en Música y Tecnología Artística en la Escuela Nacional de Estudios Superiores campus Morelia de la Universidad Nacional Autónoma de México (UNAM), dónde se tituló con honores y obtuvo la medalla Gabino Barreda. Además, cuenta con una maestría en Música en el área de Tecnología Musical otorgada por la UNAM.</p>
+
+          <p>Su música combina notación mixta, síntesis, procesos interactivos, algorítmicos y de inteligencia artificial con la exploración instrumental en formatos de cámara. Ha sido beneficiario del PECDA y en el 2017 resultó ganador del Primer "Concurso Nacional de Composición para Cuarteto de Percusiones" con su obra "Aleación". Su producción musical cuenta con más de 30 obras y ha sido interpretada en espacios nacionales e internacionales, como el Foro de Música Nueva Manuel Enríquez (México), el Centro Mexicano para la Música y Artes Sonoras (México), el Festival de Música Contemporánea, la Western Michigan University (Estados Unidos) y el Festival Internacional Vila de Canals (España).</p>
+
+          <p>Actualmente, es beneficiario del programa jóvenes creadores del SACPC y se desempeña como profesor de asignatura en la Universidad Autónoma de Tamaulipas, colaborando con músicos e investigadores de la Universidad de Nueva York y la UNAM en proyectos relacionados con bases de datos musicales y modelos generativos de aprendizaje automático.</p>
+
+          <hr class="bio-separator">
+
+          <h2>Gerardo Meza (Mexico, 1993)</h2>
+          <p class="sub">Composer of chamber and electronic music.</p>
+
+          <p>He began his musical studies at the Universidad Autónoma de Tamaulipas and holds a Bachelor's degree in composition from the Conservatorio de las Rosas, where he studied with Ignacio Martínez Madrigal.</p>
+
+          <p>He is also a Bachelor of Music and Artistic Technology from ENES, UNAM, where he studied under the guidance of Rodrigo Sigal and Juan Sebastián Lach. He is currently a graduate of the Master's program in Musical Technology at UNAM.</p>
+
+          <p>As a composer, in 2017 he won the «1st National Composition Competition for Percussion Quartet» with his piece «Aleación» and has been a beneficiary of the Stimulus Program for Artistic Creation and Development in 2014 and 2019 with the projects «Sonidos de un entorno Tamaulipeco» and «Topografías Sónicas». His music has been performed in Mexico, the United States, and Spain.</p>
+        </div>
       </div>
-  </section>
-</main>
+    </section>
+  </main>
+
   <footer>
-    <p>
-      2026 AMUPAC Data set, Contact: gmeza@uat.edu.mx
-    </p>
+    <!-- FIX: year is now dynamic via JS -->
+    <p>&copy; <span id="footer-year">2026</span> Gerardo Meza &mdash; Contact: <a href="mailto:gmeza@uat.edu.mx">gmeza@uat.edu.mx</a></p>
   </footer>
+
 </body>
 </html>
-
